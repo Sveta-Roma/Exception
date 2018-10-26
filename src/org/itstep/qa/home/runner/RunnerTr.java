@@ -8,6 +8,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class RunnerTr {
+    /*Решить задачу об определении площади треугольника по трем сторонам. Длины сторон вводить с клавиатуры.
+Проверку корректности ввода реализовать через обработку исключений. Проверку корректности длин сторон организовать
+через обработку исключений. (Выбросить собственное исключение).
+ */
     public static void main(String[] args) {
         System.out.println("Введиде первую сторону");
         int sideA = inputWithControl();
